@@ -11,8 +11,10 @@ print(f"Your Height is: {weight}kg and Your Height is: {height}m")
 bmi = weight / (height ** 2)
 print("Your BMI number: {bmi:.2f}")
 
-
-if bmi < 18.5:
+if bmi <= 0:
+  print("Oops! Please Enter the Correct BMI")
+  
+elif bmi < 18.5:
   print("Your BMI is: Underweight")
 
 elif bmi < 25:
@@ -23,5 +25,3 @@ elif bmi < 30:
 
 else:
   print("Your BMI status: Obesity")
-
-  
