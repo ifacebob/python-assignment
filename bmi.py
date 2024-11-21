@@ -3,7 +3,7 @@ height =float(input("Enter your Height: "))
 
 
 
-print(f"Your Height is: {weight}kg and Your Height is: {height}m")
+print(f"Your Weight is: {weight}kg and Your Height is: {height}m")
 
 # Normal to measure weight is by kilogram 
 # you can collect ur height in feet and convert to meters  (height * 0.3048) will give you height in meters but to bypass this 
